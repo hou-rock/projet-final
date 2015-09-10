@@ -1,0 +1,71 @@
+*{font-family:sansation;}
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.0;
+	z-index: 999;
+}
+ 
+.signup-popup{
+	display:none;
+	background: #fff;
+	padding: 10px; 	
+	float: left;
+	font-size: 12px;
+	position: fixed;
+	top: 35%; left: 70%;
+	z-index: 99998;
+	border-radius:25px 0px 35px 0px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px; 
+}
+
+img.btn_close {
+	float: right; 
+	margin: -20px -20px 0 0;
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.signup .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.signup .textbox span { 
+	display:block;
+}
+
+form.signup p, form.signup span { 
+	color:#999; 
+	line-height:18px;
+} 
+
+form.signup .textbox input { 
+	background:#f0f0f0; 
+	color:#676767; 
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	box-shadow:1px 0px 3px gray inset;
+	-moz-box-shadow:1px 0px 3px gray inset;
+	-webkit-box-shadow:1px 0px 3px gray inset;
+	padding:6px 6px 4px;
+	width:200px;
+	border:1px solid #fff;
+}
+
+form.signup input:-moz-placeholder { color:#676767; }
+form.signup input::-webkit-input-placeholder { color:#676767;}
+
+.button { 
+	display:inline-block;
+	margin-top:5px;
+	border:0px;
+	float:left;
+}

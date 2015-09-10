@@ -1,0 +1,57 @@
+*{font-family:sansation;}
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.0;
+	z-index: 999;
+}
+
+.car-popup{
+	display:none;
+	background: #fff;	
+	float: left;
+	font-size: 12px;
+	position: absolute;
+	top: 96%; left: 50%;
+	z-index: 99998;
+	width:772px;
+	height:346px;
+	border:1px solid #676767;
+}
+
+img.btn_close {
+	float: right; 
+	margin: -20px -20px 0 0;
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.car .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.car .textbox span { 
+	display:block;
+}
+
+form.car p, form.signup span { 
+	color:#999; 
+	line-height:18px;
+} 
+
+
+form.car input:-moz-placeholder { color:#676767; }
+form.car input::-webkit-input-placeholder { color:#676767;}
+
+.button { 
+	display:inline-block;
+	margin-top:5px;
+	border:0px;
+	float:left;
+}

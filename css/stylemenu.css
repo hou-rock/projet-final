@@ -1,0 +1,71 @@
+*{font-family:sansation;}
+
+.header .menu {
+	float: none;
+	height: 48px;
+	width: 960px;
+	margin-top:-442px;
+	z-index:100;
+}
+
+#container {
+	width:960px;
+	height:48px;
+	margin:0 auto;
+}
+
+#menuwrap {
+	width:100%;
+	height:49px; 
+	position:relative; 
+	top:-45px;
+	background:transparent url(../img/menubg.jpg) repeat-x;
+	z-index:50px;
+}
+
+ul#menu1 {
+	width:490px; 
+	height:48px; 
+	float:right; 
+	margin-right:350px;
+	margin-top:-47px;
+	margin-bottom:0;
+	padding:0; 
+	list-style-type:none; 
+}
+
+ul#menu1 li { 
+	float:left;
+}
+
+ul#menu1 li a { 
+	display: block; 
+	height:49px; 
+	overflow:hidden; 
+	text-indent:-99999px;
+	background:transparent url(../img/menu-matrix.jpg) no-repeat;
+	z-index:50px;
+}
+
+ul#menu1 li#home a { background-position:1px 0; width:97px; }
+ul#menu1 li#home a:hover { background-position:1px -49px; width:97px; }
+
+ul#menu1 li#articles a { background-position:-96px 0; width:97px; }
+ul#menu1 li#articles a:hover { background-position:-96px -49px; width:97px; }
+
+ul#menu1 li#videos a { background-position:-193px 0; width:97px; }
+ul#menu1 li#videos a:hover { background-position:-193px -49px; width:97px; }
+
+ul#menu1 li#services a { background-position:-290px 0; width:97px; }
+ul#menu1 li#services a:hover { background-position:-290px -49px; width:97px; }
+
+
+ul#menu1 li#panier a { background-position:-387px 0; width:97px; }
+ul#menu1 li#panier a:hover { background-position:-387px -49px; width:97px; }
+
+ul#menu1 li#contact a { background-position:-483px 0; width:97px; 
+    margin-left: 485px;
+    margin-top: -49px;}
+ul#menu1 li#contact a:hover { background-position:-486px -49px; width:97px; 
+    margin-left: 485px;
+    margin-top: -49px;}

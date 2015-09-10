@@ -1,0 +1,13 @@
+span{font-size:14px;color:#676767;}
+h3{font-size:16px;color:#fff;padding:6px 6px 8px;}
+
+#options {width:793px; margin:20px auto; text-align:right; color:#9ac1c9;}
+#options a {text-decoration:none; color:#9ac1c9;}
+#options a:hover {color:#033;}
+
+#acc {width:827px; list-style:none; color:#033; margin:25px;}
+#acc h3 {width:778px; height:17px; border:1px solid #00adef;  font-weight:bold; margin-top:5px; cursor:pointer; background:#00adef;}
+#acc .acc-section {overflow:hidden; background:#fff;}
+#acc .acc-content {width:760px; padding:15px; border:1px solid #dedede; border-top:none; background:#fff;} 
+
+
